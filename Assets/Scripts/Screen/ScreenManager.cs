@@ -34,6 +34,7 @@ namespace Screens
 
         public void HideAll()
         {
+            screenBases.ForEach(i => i.gameObject.SetActive(true));
             screenBases.ForEach(i => i.Hide());
         }
 

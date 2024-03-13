@@ -11,7 +11,9 @@ namespace Screens
     {
         Panel,
         Info_Panel,
-        Shop
+        Shop,
+        Exit,
+        About
     }
 
     public class ScreenBase : MonoBehaviour
