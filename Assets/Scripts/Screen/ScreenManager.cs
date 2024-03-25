@@ -20,6 +20,17 @@ namespace Screens
             ShowByType(startScreen);
         }
 
+
+        /*private void Scale(Transform t, float size = 1.2f)
+        {
+            t.localScale = Vector3.one * size;
+        }*/
+
+        private void GetRandom()
+        {
+            screenBases[Random.Range(0, screenBases.Count)].animationDuration = 1;
+        }
+
         public void ShowByType(ScreenType type)
         {
 
